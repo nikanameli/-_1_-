@@ -7,9 +7,9 @@ if (numberA >7 || numberA < 1)
 }
 else if (numberA >1 && numberA < 6)
 {
-    Console.WriteLine($"{numberA} - будний день.");
+    Console.WriteLine($"{numberA} - будний день!");
 }
 else 
 {
-    Console.WriteLine($"{numberA} - выходной день.");
+    Console.WriteLine($"{numberA} - выходной день!");
 }
