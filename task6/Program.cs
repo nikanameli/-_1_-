@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Ввыдете порятковый номер недели от 1 до 7.");
+﻿Console.WriteLine("Введите порятковый номер недели от 1 до 7.");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
 if (numberA >7 || numberA < 1)
