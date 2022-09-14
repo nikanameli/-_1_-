@@ -32,7 +32,7 @@ int n(int [] arr)
     return diff;
 }
 
-int[] array = GetArray(5, 1, 10);
+int[] array = GetArray(5, -10, 10);
 Console.WriteLine(string.Join(", ", array));
 int M = n(array);
 Console.WriteLine(M);
