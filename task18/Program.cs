@@ -11,7 +11,7 @@ float y = 0;
 
 if (b1 == b2 && k1 == k2)
 {
-    Console.WriteLine("Прямые параллельны!")
+    Console.WriteLine("Прямые параллельны!");
 }
 else
 {
