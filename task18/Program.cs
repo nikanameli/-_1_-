@@ -9,7 +9,13 @@ float k2 = Convert.ToInt32(Console.ReadLine());
 float x = 0;
 float y = 0;
 
-x = (b2 - b1)/(k1 - k2);
-y = k1 * x + b1;
-
-Console.WriteLine($"Точка пересечения двух прямых будет находится на координатах ({x};{y})");
+if (b1 == b2 && k1 == k2)
+{
+    Console.WriteLine("Прямые параллельны!")
+}
+else
+{
+    x = (b2 - b1)/(k1 - k2);
+    y = k1 * x + b1;
+    Console.WriteLine($"Точка пересечения двух прямых будет находится на координатах ({x};{y})");
+}
