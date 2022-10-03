@@ -17,3 +17,6 @@ Console.WriteLine("Введите 2 числа.");
 int m = Convert.ToInt32(Console.ReadLine());
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(func(m, n));
+
+// Иван, спасибо Вам!
+// Удачи в карьере!)
